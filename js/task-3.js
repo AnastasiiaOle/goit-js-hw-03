@@ -13,6 +13,12 @@ const findBestEmployee = function (employees) {
   };
   
 
+// const findBestEmployee = function (employees) {
+//   for (const key in employees) {
+//     if (employees[key] === Math.max(...Object.values(employees))) return key;
+//   }
+// };
+
 console.log(
   findBestEmployee({
     ann: 29,
